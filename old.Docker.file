@@ -8,5 +8,6 @@ USER root
 
 USER main
 
-# Install Julia kernel
+# install the ccd_tools from pypi
+RUN pip install -U pip
 RUN pip install ccd_tools
