@@ -1,5 +1,2 @@
-texlive-latex-base
-texlive-latex-recommended
-texlive-science
 dvipng
 ghostscript
