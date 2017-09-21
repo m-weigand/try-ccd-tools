@@ -1,5 +1,6 @@
 #!/bin/bash
 
-echo $USER > user.txt
-# sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-science \
-# 	dvi-png ghostscript
+# run matplotlib once to generate the font cache
+python -c "import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
