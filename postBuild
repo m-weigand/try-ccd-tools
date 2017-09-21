@@ -1,4 +1,5 @@
 #!/bin/bash
 
+echo $USER > user.txt
 apt-get install texlive-latex-base texlive-latex-recommended texlive-science \
 	dvi-png ghostscript
