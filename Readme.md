@@ -6,6 +6,8 @@ Just follow this link to open a binder instance for the gui:
 
 https://mybinder.org/v2/gh/m-weigand/try-ccd-tools/master?filepath=ccd_test.ipynb
 
+<img src="screenshot.png" width="80%"/>
+
 # Open Issues
 
 * One thing to figure out is how to enable Latex support in the mybinder
